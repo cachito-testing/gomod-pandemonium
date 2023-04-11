@@ -2,10 +2,10 @@
 
 package where_was_i_built
 
-import "github.com/cachito-testing/gomod-pandemonium/useless"
+import "github.com/cachito-testing/gomod-pandemonium/weird"
 
 func useTheArbitraryDependency() {
-	useless.Useless()
+	weird.Weird()
 }
 
 func WhatOS() string {

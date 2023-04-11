@@ -8,7 +8,7 @@ when listing Go dependencies.
 * a direct dependency is only needed when [building on Windows](./where-was-i-built/on_windows.go)
   (go-winio)
 * a locally replaced module is only needed when
-  [not building on Windows or a Unix system](./where-was-i-built/idk.go) (./useless)
+  [not building on Windows or a Unix system](./where-was-i-built/idk.go) (./weird)
 * a transitive dependency is only needed when [building on Windows][moby-term-windows] (go-ansiterm)
 * test-only dependencies - [main\_test.go](./main_test.go) (ginkgo, gomega)
 

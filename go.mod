@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/Microsoft/go-winio v0.6.0
 	github.com/cachito-testing/gomod-pandemonium/terminaltor v0.0.0
-	github.com/cachito-testing/gomod-pandemonium/useless v0.0.0
+	github.com/cachito-testing/gomod-pandemonium/weird v0.0.0
 	github.com/onsi/ginkgo/v2 v2.9.2
 	github.com/onsi/gomega v1.27.4
 	github.com/release-engineering/retrodep/v2 v2.1.0
@@ -32,6 +32,6 @@ require (
 
 replace (
 	github.com/cachito-testing/gomod-pandemonium/terminaltor => ./terminaltor
-	github.com/cachito-testing/gomod-pandemonium/useless => ./useless
+	github.com/cachito-testing/gomod-pandemonium/weird => ./weird
 	github.com/release-engineering/retrodep/v2 => github.com/cachito-testing/retrodep/v2 v2.1.1
 )
